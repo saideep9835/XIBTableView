@@ -8,9 +8,14 @@
 import UIKit
 
 class DemoTVCTableViewCell: UITableViewCell {
+    
+    
 
+    @IBOutlet weak var label: UILabel!
+    static let cellIdentifier = "NIBTableViewCellIdentifier"
     override func awakeFromNib() {
         super.awakeFromNib()
+        label.text = "XIB"
         // Initialization code
     }
 

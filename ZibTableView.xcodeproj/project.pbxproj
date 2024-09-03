@@ -16,6 +16,9 @@
 		A54D83AA2C87A4BC0032EAEB /* ZibTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D83A92C87A4BC0032EAEB /* ZibTableViewTests.swift */; };
 		A54D83B42C87A4BC0032EAEB /* ZibTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D83B32C87A4BC0032EAEB /* ZibTableViewUITests.swift */; };
 		A54D83B62C87A4BC0032EAEB /* ZibTableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D83B52C87A4BC0032EAEB /* ZibTableViewUITestsLaunchTests.swift */; };
+		A54D83C42C87A4DC0032EAEB /* DemoTVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D83C22C87A4DC0032EAEB /* DemoTVCTableViewCell.swift */; };
+		A54D83C52C87A4DC0032EAEB /* DemoTVCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D83C32C87A4DC0032EAEB /* DemoTVCTableViewCell.xib */; };
+		A54D83C72C87A99D0032EAEB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D83C62C87A99D0032EAEB /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A54D83AF2C87A4BC0032EAEB /* ZibTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZibTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54D83B32C87A4BC0032EAEB /* ZibTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZibTableViewUITests.swift; sourceTree = "<group>"; };
 		A54D83B52C87A4BC0032EAEB /* ZibTableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZibTableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A54D83C22C87A4DC0032EAEB /* DemoTVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTVCTableViewCell.swift; sourceTree = "<group>"; };
+		A54D83C32C87A4DC0032EAEB /* DemoTVCTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTVCTableViewCell.xib; sourceTree = "<group>"; };
+		A54D83C62C87A99D0032EAEB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				A54D839B2C87A4BB0032EAEB /* Assets.xcassets */,
 				A54D839D2C87A4BB0032EAEB /* LaunchScreen.storyboard */,
 				A54D83A02C87A4BB0032EAEB /* Info.plist */,
+				A54D83C22C87A4DC0032EAEB /* DemoTVCTableViewCell.swift */,
+				A54D83C32C87A4DC0032EAEB /* DemoTVCTableViewCell.xib */,
+				A54D83C62C87A99D0032EAEB /* TableViewController.swift */,
 			);
 			path = ZibTableView;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			files = (
 				A54D839C2C87A4BB0032EAEB /* Assets.xcassets in Resources */,
 				A54D839F2C87A4BB0032EAEB /* Base in Resources */,
+				A54D83C52C87A4DC0032EAEB /* DemoTVCTableViewCell.xib in Resources */,
 				A54D839A2C87A4BA0032EAEB /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +270,8 @@
 			files = (
 				A54D83972C87A4BA0032EAEB /* ViewController.swift in Sources */,
 				A54D83932C87A4BA0032EAEB /* AppDelegate.swift in Sources */,
+				A54D83C42C87A4DC0032EAEB /* DemoTVCTableViewCell.swift in Sources */,
+				A54D83C72C87A99D0032EAEB /* TableViewController.swift in Sources */,
 				A54D83952C87A4BA0032EAEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

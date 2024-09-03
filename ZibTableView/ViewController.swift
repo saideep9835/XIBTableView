@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func openTable(_ sender: UIButton) {
+        let tableController = TableViewController()
+            present(tableController, animated: true)
+    }
+    
 }
 
